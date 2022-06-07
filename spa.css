@@ -1,0 +1,59 @@
+.container {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1.5fr;
+    grid-template-rows: 50px 70px 70px 50px;
+}
+div div {
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+}
+.head{
+    grid-column: 1 / -1;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+.d-flex{
+    width: 50%;
+    margin-right: 15%;
+}   
+.check-2{
+    margin-right: -5%;
+}
+.check-4{
+    margin-bottom: -20%;
+}
+.head-link {
+    grid-column: 1 / -1;
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;         
+}
+.set-1{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.set-2{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.set-3{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.set-4{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.hinh{
+    text-align: center;
+}
